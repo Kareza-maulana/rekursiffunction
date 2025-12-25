@@ -3,8 +3,10 @@ import java.util.Scanner;
 public class percobaan2 {
     static int hitungpangkat(int x , int y){
         if (y == 0 ){
+            System.out.print("1 =  ");
             return 1;
         }else{
+            System.out.print(x + "x");
             return x * hitungpangkat(x, y-1);
         }
     }
@@ -15,6 +17,9 @@ public class percobaan2 {
         int bilangan = input.nextInt();
         System.out.println("pangkat : ");
         int pangkat = input.nextInt();
-        System.out.println(hitungpangkat(bilangan, pangkat));
+        System.out.print("cetak pangkat : ");
+
+        System.out.print(hitungpangkat(bilangan, pangkat));
+        
     }
 }
