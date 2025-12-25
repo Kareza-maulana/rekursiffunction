@@ -5,7 +5,8 @@ fungsi rekursif adalah sebuah fungsi yang memanggil dirinya sendiri di dalam tub
 faktorialIteratif() sama? Jelaskan perbedaan alur jalannya program pada penggunaan
 fungsi rekursif dan fungsi iteratif!
 
-1. Alur Rekursif (faktorialrekursif)Bayangkan seperti tumpukan piring.Fase Turun (Mempersiapkan): Fungsi dipanggil terus menerus ke bawah . Belum ada perhitungan, hanya menumpuk tugas.Titik Balik: Saat sampai di n=0, fungsi stop dan memberikan nilai 1.Fase Naik (Menghitung): Nilai dibawa kembali ke atas satu per satu sambil dikalikan dengan angka sebelumnya  hingga kembali ke angka 5.
+1. Alur Rekursif 
+Fungsi dipanggil terus menerus ke bawah . Belum ada perhitungan, hanya menumpuk tugas.Saat sampai di n=0, fungsi stop dan memberikan nilai 1.Fase Naik (Menghitung): Nilai dibawa kembali ke atas satu per satu sambil dikalikan dengan angka sebelumnya  hingga kembali ke angka 5.
 
 2. Alur Iteratif  
 
